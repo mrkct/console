@@ -1,3 +1,6 @@
-.history/**
-jlcpcb/**
+.history/
+jlcpcb/
+~*.lck
+*-backups/
 
+*-erc.rpt
