@@ -1,0 +1,182 @@
+(footprint "SW-TH_L8.5-W3.5-P2.50-D0.9"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SS-12D00 / SS-12D00G3 SPDT vertical slide switch. Body 8.5 x 3.5 x 3.5 mm (7.2 mm tall including knob), 3 terminals on 2.5 mm pitch, no mounting posts. Terminals 0.5 x 0.3 mm; 0.9 mm drills per the manufacturer's recommended PCB layout. Pad 2 is the centre terminal (common/wiper), matching pin B of the Switch:SW_SPDT symbol. Rated 0.3 A at 30 V DC. The 0.9 mm holes also accept 2.54 mm-pitch clones of this part: the 0.04 mm per-pin offset is well inside the 0.2 mm radial clearance.")
+	(tags "switch slide SPDT THT SS-12D00 hand-solder")
+	(property "Reference" "REF**"
+		(at 0 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1101")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-TH_L8.5-W3.5-P2.50-D0.9"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1102")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vimex.com/switches/techdocs/SS12D00-tech.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1103")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SPDT slide switch SS-12D00, 8.5x3.5x3.5 mm, 2.5 mm pitch, 3 pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1104")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.35 -1.85)
+		(end 4.35 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1201")
+	)
+	(fp_line
+		(start -4.35 1.85)
+		(end 4.35 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1202")
+	)
+	(fp_line
+		(start -4.35 -1.85)
+		(end -4.35 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1203")
+	)
+	(fp_line
+		(start 4.35 -1.85)
+		(end 4.35 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1204")
+	)
+	(fp_line
+		(start -4.35 -0.6)
+		(end -3.65 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1205")
+	)
+	(fp_line
+		(start -3.65 -0.6)
+		(end -3.65 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1206")
+	)
+	(fp_line
+		(start -3.65 0.6)
+		(end -4.35 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1207")
+	)
+	(fp_rect
+		(start -4.25 -1.75)
+		(end 4.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1301")
+	)
+	(fp_rect
+		(start -4.6 -2.1)
+		(end 4.6 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1401")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1501")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1601")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1602")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f1a0c42-5d21-4e88-9a10-0c7b5e2a1603")
+	)
+)
