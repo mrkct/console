@@ -6032,18 +6032,6 @@
 		(uuid "29460468-53db-43aa-869c-82827c91ab2e")
 	)
 	(rectangle
-		(start 233.934 144.018)
-		(end 284.734 165.862)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "517302c9-5df3-47fe-af38-f80360ba5f20")
-	)
-	(rectangle
 		(start 12.192 12.192)
 		(end 233.934 75.946)
 		(stroke
@@ -6057,7 +6045,7 @@
 	)
 	(rectangle
 		(start 233.934 116.586)
-		(end 284.734 144.018)
+		(end 284.734 165.862)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -6081,7 +6069,7 @@
 	)
 	(rectangle
 		(start 233.934 75.946)
-		(end 284.734 144.018)
+		(end 284.734 116.586)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -6124,6 +6112,17 @@
 			)
 		)
 		(uuid "0e41216d-0c7a-4c61-9839-825f00522541")
+	)
+	(text "Entering DFU/System bootloader:\n1. Will enter automatically if the flash\n   is clear (eg. first boot)\n2. Program the nBOOT_SEL Option Byte\n   to 0, tie SWCLK to 3.3v and reset"
+		(exclude_from_sim no)
+		(at 147.828 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "113a3518-47f3-4aae-88e0-0e3d05fe8e74")
 	)
 	(text "TP4054, by datasheet with I_batt=0.5 * mAh_batt\nI_batt <  100mA: R_prog=1000/I_batt \nI_batt >= 100mA: R_prog=1000/I_batt * (1.2 - 4/3 * I_batt)"
 		(exclude_from_sim no)
@@ -6168,28 +6167,6 @@
 			)
 		)
 		(uuid "89f62335-0b0f-4484-a24b-682b6fa6a43b")
-	)
-	(text "Mounting Holes"
-		(exclude_from_sim no)
-		(at 246.126 147.066 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "a0dd3435-d48e-45c8-bf53-6997f174e909")
-	)
-	(text "ATTENTION: This button will\nonly work if the option byte\nnBOOT_SEL is programmed to 0.\n\n\nThis can be done on the very\nfirst boot via USB/UART, or\nany time via SWD"
-		(exclude_from_sim no)
-		(at 168.656 146.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ad4de2fb-b7f6-4542-956f-6a4601d5ceec")
 	)
 	(text "Buttons"
 		(exclude_from_sim no)
@@ -6256,12 +6233,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a4c701e-0706-4531-b3a2-9ea0daa8650c")
-	)
-	(junction
-		(at 170.18 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b4fb64a-c1ee-4593-a723-d6f04325a0e8")
 	)
 	(junction
 		(at 125.73 55.88)
@@ -6717,16 +6688,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 128.27) (xy 170.18 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bec5405-f212-4e98-b4b9-5ab877e78911")
-	)
-	(wire
-		(pts
 			(xy 53.34 34.29) (xy 62.23 34.29)
 		)
 		(stroke
@@ -6964,16 +6925,6 @@
 			(type default)
 		)
 		(uuid "56b8b26a-c72c-45d6-a9fb-65acc4f0c4bc")
-	)
-	(wire
-		(pts
-			(xy 170.18 128.27) (xy 173.99 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a063ad6-6de3-45f7-a11e-ad0b3e166db1")
 	)
 	(wire
 		(pts
@@ -7447,16 +7398,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 152.4 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b10695a8-7829-48ce-a9c5-5e1efdeb408d")
-	)
-	(wire
-		(pts
 			(xy 182.88 38.1) (xy 182.88 35.56)
 		)
 		(stroke
@@ -7484,16 +7425,6 @@
 			(type default)
 		)
 		(uuid "b8ef3628-11aa-4075-9728-d862a6d8145d")
-	)
-	(wire
-		(pts
-			(xy 152.4 128.27) (xy 156.21 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdfde18a-25c6-42ac-8504-243db2f4fb1a")
 	)
 	(wire
 		(pts
@@ -7687,26 +7618,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 128.27) (xy 182.88 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0fcc29-7304-4967-8f90-57a901b9b368")
-	)
-	(wire
-		(pts
-			(xy 181.61 128.27) (xy 182.88 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea31dc79-7023-48e3-98ff-5fccc9594d63")
-	)
-	(wire
-		(pts
 			(xy 116.84 31.75) (xy 119.38 31.75)
 		)
 		(stroke
@@ -7764,16 +7675,6 @@
 			(type default)
 		)
 		(uuid "f8ab8f9a-3277-4601-be97-8fa5ab045490")
-	)
-	(wire
-		(pts
-			(xy 170.18 125.73) (xy 170.18 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9272033-213a-404f-8580-9d07ff8742c6")
 	)
 	(wire
 		(pts
@@ -8264,16 +8165,6 @@
 			(justify left bottom)
 		)
 		(uuid "e2c909fc-c784-4ea1-9da6-8f9e4a89125e")
-	)
-	(label "SWCLK"
-		(at 170.18 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "e7e7b73c-458f-421b-b58c-b1682f5911e3")
 	)
 	(label "VBAT_SW"
 		(at 271.78 129.54 0)
@@ -8913,82 +8804,6 @@
 			(project "console"
 				(path "/a286ee18-4788-4879-90da-91d936bf6259"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 243.84 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "174c248b-8678-4f48-bb9c-788f8182a161")
-		(property "Reference" "H2"
-			(at 246.38 158.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 246.38 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 243.84 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 243.84 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "console"
-				(path "/a286ee18-4788-4879-90da-91d936bf6259"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14269,290 +14084,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 161.29 128.27 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bd8c1b07-ece1-447c-9b73-7bb481b42f9a")
-		(property "Reference" "SW10"
-			(at 158.75 125.476 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_BOOT0"
-			(at 156.464 131.064 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
-			(at 161.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 161.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C720477"
-			(at 161.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e57bab89-74c5-40bd-8ef7-899688498cbd")
-		)
-		(pin "2"
-			(uuid "6db25834-f387-47c3-8d76-a9ca4203c392")
-		)
-		(instances
-			(project "console"
-				(path "/a286ee18-4788-4879-90da-91d936bf6259"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c04162c0-7be3-474f-8ff8-b33773a9b472")
-		(property "Reference" "R11"
-			(at 175.895 125.857 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 176.276 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.578 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 177.8 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 177.8 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 177.8 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83e06865-9b23-4187-85a6-afaa3f6b8907")
-		)
-		(pin "2"
-			(uuid "94a5d83b-7418-488d-a45e-4b88b9b6d8c4")
-		)
-		(instances
-			(project "console"
-				(path "/a286ee18-4788-4879-90da-91d936bf6259"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 262.89 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c06b1d55-84d7-4150-83a6-330fd170c4ca")
-		(property "Reference" "H3"
-			(at 265.43 152.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 265.43 154.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 262.89 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 262.89 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "console"
-				(path "/a286ee18-4788-4879-90da-91d936bf6259"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 243.84 153.67 0)
+		(at 240.03 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14563,7 +14096,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca53b54d-dcb3-46ae-b0a8-f83e500367fe")
 		(property "Reference" "H1"
-			(at 246.38 152.3999 0)
+			(at 242.57 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14574,7 +14107,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 246.38 154.9399 0)
+			(at 242.57 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14584,8 +14117,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 243.84 153.67 0)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 240.03 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14596,7 +14129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 153.67 0)
+			(at 240.03 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14607,7 +14140,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 243.84 153.67 0)
+			(at 240.03 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15645,83 +15178,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 152.4 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e45ed9f0-9520-4df2-94bb-1b4bb78dc6ea")
-		(property "Reference" "#PWR30"
-			(at 152.4 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 152.4 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f27b3987-c1c9-4cd5-86b9-5c5b4db5170e")
-		)
-		(instances
-			(project "console"
-				(path "/a286ee18-4788-4879-90da-91d936bf6259"
-					(reference "#PWR30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:XC6206PxxxMR")
 		(at 139.7 34.29 0)
 		(unit 1)
@@ -16085,82 +15541,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 262.89 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec4e5a7d-3798-4c47-bb79-8997f968ef5d")
-		(property "Reference" "H4"
-			(at 265.43 158.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 265.43 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 262.89 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 262.89 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "console"
-				(path "/a286ee18-4788-4879-90da-91d936bf6259"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 92.71 0)
 		(unit 1)
@@ -16357,83 +15737,6 @@
 			(project "console"
 				(path "/a286ee18-4788-4879-90da-91d936bf6259"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4400211-e103-4f38-87fb-96876840a8b2")
-		(property "Reference" "#PWR31"
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 134.112 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d77a7b1b-50bc-4e09-b6a5-eca629616eb5")
-		)
-		(instances
-			(project "console"
-				(path "/a286ee18-4788-4879-90da-91d936bf6259"
-					(reference "#PWR31")
 					(unit 1)
 				)
 			)
