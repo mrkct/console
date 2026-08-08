@@ -15040,7 +15040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "console:USBC-TH_L21.6-W12.8-P2.54"
 			(at 22.86 40.64 0)
 			(hide yes)
 			(show_name no)
