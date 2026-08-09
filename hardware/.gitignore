@@ -4,3 +4,7 @@ jlcpcb/
 *-backups/
 
 *-erc.rpt
+
+# autorouter intermediates
+*.dsn
+*.ses
