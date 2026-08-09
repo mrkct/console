@@ -15017,7 +15017,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d6086e1f-fa24-4c23-bdbd-e6fefa3a4189")
 		(property "Reference" "J1"
