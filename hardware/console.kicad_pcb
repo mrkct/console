@@ -2710,7 +2710,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32G0B1CBT6"
+		(property "Value" "STM32G070CBT6"
 			(at 0 5.85 0)
 			(layer "F.Fab")
 			(uuid "498f09c6-ef46-496a-8caf-8a481d1e2e4b")
@@ -2721,7 +2721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g070cb.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2732,7 +2732,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, USB 2.0 FS, 44 GPIO, LQFP48"
+		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 36KB RAM, 64 MHz, 2.0-3.6V, 43 GPIO, LQFP48"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2755,7 +2755,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2847904"
+		(property "LCSC" "C529338"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2768,7 +2768,7 @@
 				)
 			)
 		)
-		(property "MPN" "STM32G0B1CBT6"
+		(property "MPN" "STM32G070CBT6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2801,10 +2801,10 @@
 		(units
 			(unit
 				(name "A")
-				(pins "5" "8" "9" "10" "38" "39" "40" "41" "30" "31" "1" "2" "3" "4"
-					"7" "6" "11" "12" "13" "14" "15" "16" "17" "18" "28" "33" "29" "34"
-					"32" "35" "36" "37" "19" "20" "21" "42" "43" "44" "45" "46" "47" "48"
-					"22" "23" "24" "25" "26" "27"
+				(pins "10" "5" "8" "9" "38" "39" "40" "41" "30" "31" "1" "2" "3" "32"
+					"29" "4" "7" "6" "11" "12" "13" "14" "15" "16" "17" "18" "28" "33" "34"
+					"35" "36" "37" "19" "20" "21" "42" "43" "44" "45" "46" "47" "48" "22"
+					"23" "24" "25" "26" "27"
 				)
 			)
 		)
@@ -3221,8 +3221,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/NRST")
-			(pinfunction "PF2_10")
-			(pintype "bidirectional")
+			(pinfunction "NRST_10")
+			(pintype "input")
 			(uuid "12edea59-4226-4e42-a0eb-8165119569a6")
 		)
 		(pad "11" smd roundrect
@@ -3410,9 +3410,9 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-PA9{slash}UCPD1_DBCC1-Pad29)")
-			(pinfunction "PA9/UCPD1_DBCC1_29")
-			(pintype "bidirectional+no_connect")
+			(net "unconnected-(U1-NC{slash}PA9-Pad29)")
+			(pinfunction "NC/PA9_29")
+			(pintype "no_connect")
 			(uuid "ecec3cd5-827c-4f05-92c3-d6692bc80af1")
 		)
 		(pad "30" smd roundrect
@@ -3440,9 +3440,9 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-PA10{slash}UCPD1_DBCC2-Pad32)")
-			(pinfunction "PA10/UCPD1_DBCC2_32")
-			(pintype "bidirectional+no_connect")
+			(net "unconnected-(U1-NC{slash}PA10-Pad32)")
+			(pinfunction "NC/PA10_32")
+			(pintype "no_connect")
 			(uuid "8a23e183-45e6-4cd4-b703-b4201d82a690")
 		)
 		(pad "33" smd roundrect
