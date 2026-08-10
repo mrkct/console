@@ -1053,7 +1053,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_RIGHT"
+		(property "Value" "SW_PUSH"
 			(at 0 2.65 90)
 			(layer "F.Fab")
 			(uuid "e63bd365-04cb-40c8-8f4b-845980b96f10")
@@ -1326,7 +1326,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_START"
+		(property "Value" "SW_PUSH"
 			(at 0.000001 2.65 335)
 			(layer "F.Fab")
 			(uuid "e96e2370-03a0-4f22-b0c6-e60c28609e59")
@@ -1809,7 +1809,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_UP"
+		(property "Value" "SW_PUSH"
 			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "19a6046b-937a-4a73-b009-eef49fcfe758")
@@ -2082,7 +2082,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_A"
+		(property "Value" "SW_PUSH"
 			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "405423ab-6c22-44aa-b9dc-6d0f6cdf96aa")
@@ -3832,7 +3832,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DOWN"
+		(property "Value" "SW_PUSH"
 			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "0e913460-9f00-49aa-9ef4-9bb562382397")
@@ -4525,7 +4525,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_B"
+		(property "Value" "SW_PUSH"
 			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "c7647bf4-fb9f-4f4f-a0a2-97572d55bb62")
@@ -8437,7 +8437,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SELECT"
+		(property "Value" "SW_PUSH"
 			(at 0.000001 2.65 335)
 			(layer "F.Fab")
 			(uuid "1ef1236f-4fdf-423d-840c-040f3971c910")
@@ -8710,7 +8710,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_LEFT"
+		(property "Value" "SW_PUSH"
 			(at 0 2.65 90)
 			(layer "F.Fab")
 			(uuid "791547ab-0a96-40a5-9b26-ceea7a76573a")

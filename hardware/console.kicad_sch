@@ -8030,7 +8030,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_START"
+		(property "Value" "SW_PUSH"
 			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9558,7 +9558,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SELECT"
+		(property "Value" "SW_PUSH"
 			(at 215.9 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10120,7 +10120,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_UP"
+		(property "Value" "SW_PUSH"
 			(at 215.9 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10656,7 +10656,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DOWN"
+		(property "Value" "SW_PUSH"
 			(at 215.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11317,7 +11317,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_LEFT"
+		(property "Value" "SW_PUSH"
 			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13704,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_RIGHT"
+		(property "Value" "SW_PUSH"
 			(at 215.9 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -14438,7 +14438,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_A"
+		(property "Value" "SW_PUSH"
 			(at 215.9 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15195,7 +15195,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_B"
+		(property "Value" "SW_PUSH"
 			(at 215.9 123.19 0)
 			(hide yes)
 			(show_name no)
