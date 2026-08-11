@@ -11394,6 +11394,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 8 29.5)
+		(end 28 54.5)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "8b05adc4-59e0-418b-bc93-a64cdb273640")
+	)
 	(gr_line
 		(start 0 3)
 		(end 0.0039 2.8481)
@@ -12154,6 +12165,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 36 53.5 0)
+		(layer "B.SilkS")
+		(uuid "bd81c45d-3f52-4a3c-b556-c78e8acfc770")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "3V"
 		(at 11 19.7 90)
 		(layer "B.SilkS")
@@ -12262,6 +12285,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "Board Rev 1.0"
+		(at 41.5 51.5 0)
+		(layer "B.SilkS")
+		(uuid "3a3eb0c2-9c99-4808-a998-12af6d8e8614")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "SWD"
 		(at 5.5 21 0)
 		(layer "B.SilkS")
@@ -12298,8 +12333,21 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "LiPo Battery\n  140mAh"
+		(at 23.5 44 0)
+		(layer "B.SilkS")
+		(uuid "a4d435df-7e56-4c38-b6c9-03b8eea75950")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "USB-C"
-		(at 22 54.4 0)
+		(at 21 62.5 0)
 		(layer "B.SilkS")
 		(uuid "cdbd2eb3-6e70-4f24-9ec4-163a95212329")
 		(effects
@@ -17539,6 +17587,10 @@
 				(xy 13.376677 11.175499)
 			)
 		)
+	)
+	(group ""
+		(uuid "b3acfa15-4a30-473c-9cb9-2065cf006005")
+		(members "8b05adc4-59e0-418b-bc93-a64cdb273640" "a4d435df-7e56-4c38-b6c9-03b8eea75950")
 	)
 	(embedded_fonts no)
 )
