@@ -5939,6 +5939,16 @@
 		)
 		(uuid "7a2abf9b-bfd1-4702-a942-ecc9ee3d77a4")
 	)
+	(text "Needed for pcba"
+		(exclude_from_sim no)
+		(at 274.828 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84685f69-9ab2-496c-a804-ac2b0ea03ad6")
+	)
 	(text "Power Supply"
 		(exclude_from_sim no)
 		(at 28.448 18.542 0)
@@ -7564,7 +7574,7 @@
 		(uuid "3f4a4e87-643e-4f15-8f52-970fd80f6891")
 	)
 	(label "VBAT_SENSE"
-		(at 254 133.35 0)
+		(at 247.65 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7854,7 +7864,7 @@
 		(uuid "b1b6f477-f555-4ad6-b2c8-d2a3ff3594c4")
 	)
 	(label "VBAT_LIPO"
-		(at 254 125.73 0)
+		(at 247.65 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7934,7 +7944,7 @@
 		(uuid "e2c909fc-c784-4ea1-9da6-8f9e4a89125e")
 	)
 	(label "VBAT_SW"
-		(at 254 129.54 0)
+		(at 247.65 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9718,8 +9728,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 254 133.35 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 274.32 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9727,9 +9737,9 @@
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
-		(uuid "381cdf03-c228-4e67-a1df-c8f9f7bd72d1")
-		(property "Reference" "TP7"
-			(at 247.396 133.35 90)
+		(uuid "37bfce5b-5112-4798-a6c1-95ee27a4ade7")
+		(property "Reference" "TH2"
+			(at 274.32 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9738,9 +9748,8 @@
 				)
 			)
 		)
-		(property "Value" "VBAT_SENSE"
-			(at 255.27 133.35 0)
-			(hide yes)
+		(property "Value" "ToolingHole"
+			(at 274.32 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9749,8 +9758,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 254 128.27 0)
+		(property "Footprint" "console:TOOL-NPTH-D1.152"
+			(at 274.32 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9761,7 +9770,81 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 128.27 0)
+			(at 274.32 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "JLCPCB assembly tooling hole, NPTH Ø1.152 mm"
+			(at 274.32 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "console"
+				(path "/a286ee18-4788-4879-90da-91d936bf6259"
+					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 247.65 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "381cdf03-c228-4e67-a1df-c8f9f7bd72d1")
+		(property "Reference" "TP7"
+			(at 241.046 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT_SENSE"
+			(at 248.92 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 247.65 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9772,7 +9855,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 254 133.35 0)
+			(at 247.65 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10745,7 +10828,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5b000001-0000-4000-8000-00000000000f")
 		(property "Reference" "LS1"
@@ -10758,7 +10841,7 @@
 				)
 			)
 		)
-		(property "Value" "HNR-1207PA6.5"
+		(property "Value" "PS1240P02BT"
 			(at 270.51 85.09 270)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10768,7 +10851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "console:BUZ-TH_BD12.5-P6.50-D0.9"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
 			(at 270.51 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10779,7 +10862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf"
 			(at 270.51 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10790,7 +10873,7 @@
 				)
 			)
 		)
-		(property "Description" "Piezoelectric passive buzzer, 12.5 mm dia through-hole, 6.5 mm pitch. Resonance 4000 +/-500 Hz, <=10 mA at 5 Vpp, >=80 dB @ 10 cm."
+		(property "Description" "Piezoelectric passive buzzer, 12.2 mm dia through-hole, 5.0 mm pitch. Resonance 4.0 kHz, 3 Vo-p rated (30 V max), 70 dB @ 10 cm."
 			(at 270.51 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10801,7 +10884,7 @@
 				)
 			)
 		)
-		(property "MPN" "HNR-1207PA6.5"
+		(property "MPN" "PS1240P02BT"
 			(at 270.51 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10812,7 +10895,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C22387765"
+		(property "Manufacturer" "TDK"
+			(at 270.51 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76871"
 			(at 270.51 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11860,9 +11954,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "88874957-39cc-43a3-b190-ca3b746d2e3d")
 		(property "Reference" "DS1"
@@ -12156,7 +12250,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 254 125.73 90)
+		(at 247.65 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12166,7 +12260,7 @@
 		(dnp no)
 		(uuid "935f71f5-a130-4186-8c1f-fb5c28064b89")
 		(property "Reference" "TP5"
-			(at 247.142 125.73 90)
+			(at 240.792 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12176,7 +12270,7 @@
 			)
 		)
 		(property "Value" "VBAT_LIPO"
-			(at 257.81 125.73 0)
+			(at 251.46 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12187,7 +12281,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 254 120.65 0)
+			(at 247.65 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12198,7 +12292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 120.65 0)
+			(at 247.65 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12209,7 +12303,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 254 125.73 0)
+			(at 247.65 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13310,7 +13404,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 240.03 147.32 0)
+		(at 240.03 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13321,7 +13415,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca53b54d-dcb3-46ae-b0a8-f83e500367fe")
 		(property "Reference" "H1"
-			(at 242.57 146.0499 0)
+			(at 242.57 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13332,7 +13426,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 242.57 148.5899 0)
+			(at 242.57 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13343,7 +13437,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 240.03 147.32 0)
+			(at 240.03 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13354,7 +13448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 147.32 0)
+			(at 240.03 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13365,7 +13459,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 240.03 147.32 0)
+			(at 240.03 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14535,7 +14629,7 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 254 129.54 90)
+		(at 247.65 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14545,7 +14639,7 @@
 		(dnp no)
 		(uuid "ea69c575-d222-4b1e-a0b7-2c30b8c92832")
 		(property "Reference" "TP6"
-			(at 247.396 129.54 90)
+			(at 241.046 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14555,7 +14649,7 @@
 			)
 		)
 		(property "Value" "VBAT_SW"
-			(at 255.524 129.54 0)
+			(at 249.174 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14566,7 +14660,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 254 124.46 0)
+			(at 247.65 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14577,7 +14671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 124.46 0)
+			(at 247.65 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14588,7 +14682,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 254 129.54 0)
+			(at 247.65 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14962,6 +15056,79 @@
 			(project "console"
 				(path "/a286ee18-4788-4879-90da-91d936bf6259"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 274.32 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "fcdcec5c-d561-4f65-95c2-d830d2f1f8a1")
+		(property "Reference" "TH1"
+			(at 274.32 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 274.32 159.385 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "console:TOOL-NPTH-D1.152"
+			(at 274.32 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "JLCPCB assembly tooling hole, NPTH Ø1.152 mm"
+			(at 274.32 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "console"
+				(path "/a286ee18-4788-4879-90da-91d936bf6259"
+					(reference "TH1")
 					(unit 1)
 				)
 			)

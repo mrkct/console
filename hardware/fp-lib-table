@@ -10,5 +10,6 @@
   (lib (name "Connector_PinHeader_2.54mm")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Connector_PinHeader_2.54mm.pretty")(options "")(descr "Pin headers, 2.54mm"))
   (lib (name "Connector_JST")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Connector_JST.pretty")(options "")(descr "JST connectors"))
   (lib (name "TestPoint")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/TestPoint.pretty")(options "")(descr "Test points"))
+  (lib (name "Buzzer_Beeper")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Buzzer_Beeper.pretty")(options "")(descr "Audio signalling devices"))
   (lib (name "MountingHole")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/MountingHole.pretty")(options "")(descr "Mounting holes"))
 )
